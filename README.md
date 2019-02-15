@@ -1,3 +1,2 @@
 # leetcode
-## database
-### locked problems
+### database locked problems
