@@ -1,3 +1,4 @@
+-- 579.Find Cumulative Salary of an Employee
 -- The Employee table holds the salary information in a year.
 
 -- Write a SQL to get the cumulative sum of an employee's salary over a period of 3 months but exclude the most recent month.
