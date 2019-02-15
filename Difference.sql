@@ -1,10 +1,5 @@
-id, trasaction_date, revenue
-calculate the difference for each id between the first grasaction_date and the second trasaction_date
-
-select cur.rnk, cur.revenue-pur.revenue
-from
-(select cur
-left outer join 
+-- id, trasaction_date, revenue
+-- calculate the difference for each id between the first grasaction_date and the second trasaction_date
 
 with temp as
 (
