@@ -41,3 +41,12 @@
 --And its location is the same with the third record, which makes the third record fail, too.
 --
 --So, the result is the sum of TIV_2016 of the first and last record, which is 45.
+--
+select format(sum(a.TIV_2016), 2) as TIV_2016
+from insurance a
+right join insurance b
+on (
+(a.TIV_2015 = b.TIV_2015 and a.PID != b.PID)
+and
+(a.LAT != b.LAT or a.LON != b.LON)
+);
